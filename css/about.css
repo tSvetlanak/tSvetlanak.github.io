@@ -1,0 +1,101 @@
+.about{
+    margin: 381px auto 0 ;
+	width:100%;
+	background-color: #fff;
+}
+.about-constrained{
+	width: 81%;
+	border-top: 1px dashed rgba(180, 180, 180,0.83);
+	display: flex; 
+	justify-content: space-between;
+	padding: 107px 0 106px;
+    margin: 0 auto;
+	}
+.about-constrained-article{
+	padding-right:6.25%;
+	border-right:1px dashed rgba(180, 180, 180,0.83);
+	width: 519px;
+			}
+.about-constrained-article-headline{
+	font-size: 35px;
+    font-family: "Lato Black", sans-serif;
+    color: rgba(48, 48, 48, 255);
+    line-height: 1.2;
+	font-weight: bold;
+	font-style: normal;
+		}
+.about-sp{
+	font-size: 35px;
+    font-family: "Lato Semibold", sans-serif;
+    color: rgba(48, 48, 48, 255);
+    line-height: 1.2;
+	font-weight: normal;
+	font-style: normal;
+	}
+.about-constrained-article .about-constrained-article-text{
+	padding-top: 30px;
+	font-size: 17px;
+    font-family: "﻿Lato", sans-serif;
+    color: rgba(116, 116, 116, 255);
+	font-weight: 100;
+	font-style: normal;
+    line-height: 1.5;
+	text-align: justify;
+}
+.our-team {
+	display:flex;
+	justify-content: space-between;
+	width: 678px;
+	margin: 0  0 0 6.25% ;
+	position: relative;
+   }
+.mert-can-eyriyer {
+	width: 130px;
+		}
+.foto-about{
+	text-align: center;
+}
+.photo img{
+	 margin: 0 auto; 
+     width: 95px;
+     display:block;
+     overflow: hidden;
+     border-radius: 50%;
+     border: 5px solid #e5e5e5;
+	 transition: all 0.5s;
+	}
+.foto-about-text{
+	padding-top: 17px;
+	font-size: 17px;
+    font-family: "Lato Bold", sans-serif;
+    color: rgba(44, 44, 44,255);
+    line-height: 1.2;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	transition: all 0.5s;
+}
+.designer{
+	padding-top:10px;
+	font-size: 15px;
+    font-family: "Lato Regular", sans-serif;
+    color: rgba(142, 142, 142, 255);
+    line-height: 1.2;
+	font-weight: normal;
+	font-style: normal;
+	margin: 25px;
+	}
+.social{
+display: flex;
+justify-content: space-around;	
+}
+.social-link{
+	font-size: 18px;
+    color: rgba(191, 191, 191, 255);
+	display: inline-block;
+	vertical-align: middle;
+  }
+.social-link:last-child{ margin-right: 0;}
+.activ-social{color: #1f89ba;}
+.social-link:hover{color: #1f89ba;}
+.photo:hover .fot, .photo:hover img{transform: scale(1.1); }

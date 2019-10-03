@@ -1,0 +1,160 @@
+.domain {
+	padding-top: 1065px;
+	height: 582px;
+	max-width: 1197px;
+	margin: 0 auto;
+    padding: 10px;
+	position: relative;
+	background-color: #fff;
+	text-align: center;
+		 	   } 
+.domain-constrained{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+.domain-text{
+    margin: 85px auto;
+	position: relative;
+	width: 100%;
+	height: 12%;
+	text-align: center;
+	align-items: center;
+	}
+.domain-text-headline {
+	font-size: 24px;
+    font-family: "Lato Heavy", sans-serif;
+	color: rgb(56, 55, 55);
+	line-height: 1.2;
+         }
+.domain-text-article {
+  margin: 32px 0 0;
+  font-size: 16px;
+  font-family: "Montserrat Ultralight", sans-serif;
+  color: rgb(162, 162, 162);
+  line-height: 1.2;
+      }
+.domain-form {
+      margin: 54px auto; 
+}
+.domain-form-choice {
+	display: flex;
+	border-collapse: collapse;
+	margin: 0 auto;
+    width: 60%;
+    height: 50px;	
+    color: rgb(203, 203, 203); 
+    border: 1px solid; 
+   }
+.domain-form-item1, .domain-form-item3{
+	   padding-top: 13px;
+	   text-align: center;
+	   width: 70px;
+	   position: relative;
+	   font-size: 16px;
+       font-family: "Lato Regular", sans-serif;
+	   font-weight:normal;
+       color: rgb(203, 203, 203);
+       line-height: 1.2;
+	     }
+.domain-form-item3-bird{
+	overflow: hidden;
+	position: relative;
+    display: block;
+    max-width:  inherit;
+    margin: 0 auto;
+    z-index: 10;
+}
+ .domain-form-item3-bird:after{
+	font-family: "FontAwesome";
+    content: "\f107";
+    color: rgb(203, 203, 203);
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    right: 1%;
+    top: 11%;
+    z-index: -1;
+	   }		  
+.domain-form-item3-sel{
+	padding-left: 10px; 
+	background: transparent;
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+    color: rgb(203, 203, 203);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+	 margin: 0;
+    display: block;
+   }
+.domain-form-item3-sel:focus{
+	outline: none; 
+	border-color:rgb(203, 203, 203);
+	 }
+.domain-form-item3-sel:hover{
+	cursor:pointer;
+}
+
+.domain-form-item2{
+	 width: 80%;
+	 padding-top:10px;
+	 padding-left: 3%;
+     text-align: left; 
+	 position: relative;
+ }
+.domain-input-style{
+    border: 0px;
+    font-size: 17px;
+    font-family: "Lato Semibold", sans-serif;
+	font-weight: bold;
+    color: rgb(134, 134, 134);
+    line-height: 1.2;
+   }
+.domain-form-item2:before,
+.domain-form-item3:before {
+  content: '';
+  position: absolute;
+  left: -1px; 
+  top: 5px; bottom: 5px;
+  border-left: 1px solid rgb(203, 203, 203);
+  }
+.domain-price {
+	border-collapse:collapse;
+	margin: 10px 20%;
+    width: 60%;
+    height:auto;	
+    border: 1px solid  rgb(203, 203, 203);
+      }
+.domain-price-item{
+	position: relative;
+	padding: 40px 40px;
+	text-align: center; 
+	font-size: 14px;
+    font-family: "Lato Regular", sans-serif;
+    color:  rgb(203, 203, 203);
+    line-height: 1.2;
+	width: 25%;
+}
+ .domain-price-item:before, .domain-price-item:after{
+  content: '';
+  position: absolute;
+} 
+  .domain-price-item:after {
+  border-right: 1px solid rgb(203, 203, 203);
+   right: -1px;
+   height: calc(100% - 10px);
+  top: 5px; 
+  }
+ .domain-price-item:before {
+  border-bottom: 1px solid  rgb(203, 203, 203);
+   width: calc(100% - 10px);left: 5px;
+  top: 0px; 
+  }
+ .domain-price-row .domain-price-item:before{display:none;} 
+ .domain-price-row:first-child:after{display:none;} 
+ 

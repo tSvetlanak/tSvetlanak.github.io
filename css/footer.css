@@ -1,0 +1,131 @@
+.footer{
+     background-color: #2a2a2a;	
+            }
+.footer .menu_link:after{display: none; }
+.foot-menu{
+	height: 75px;
+	border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+	}
+.menu_item .selected{
+	margin-left: 70px;
+	}
+.text-item{
+	font-family: "Lato Medium", sans-serif;
+	font-size: 15px;
+	filter: opacity(50%);
+	text-decoration: none;
+    outline: none;
+    display: block;
+    font-weight: 300;
+    transition: .3s linear;
+		}
+.bottom-list .text-item:hover:before{
+	font-family: "FontAwesome";
+    content: "\f105"; 
+	padding-right: 12px; 
+	color:#fff;
+	filter: opacity(100%);
+	 transition-duration: 0.3s;
+	} 
+.text-item:hover,
+.logo:hover, .menu_link:hover, 
+.selected{
+	color:#fff;
+    filter: opacity(100%);
+    transition-duration: 0.3s;
+     }
+.footer-bottom {
+   display: flex;
+   padding: 55px 0;
+   position: relative;
+   line-height: 1.7;
+   width: 100%;
+  	}
+.footer-bottom-line{
+	margin:0;
+	width:100%;
+	height:3px;
+	background: linear-gradient(to top, #b5bdc8, #828c95 36%, #28343b);
+}
+.area-group{
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	padding-top: 22px;
+	    }
+.part1{
+	max-width: 374px;
+	padding-right: 80px;
+	margin: 0 auto;
+	text-align:justify;
+}	
+.part3-link {
+        width: 100%;
+		display: flex;
+		filter: opacity(50%);
+		color: rgba(255, 255, 255, 1);
+		transition-duration: 0.3s;
+		}
+.fa-phone, .fa-envelope-o{
+	margin: 0;
+	padding-right: 10px;
+	}
+.part3-link:hover{
+	filter: opacity(100%);
+}	
+.part2{
+	width: 465px;
+    padding-left: 50px; 
+   	margin: 0 auto;
+	}
+.part3{
+	width: 237px;
+	border-right: none;
+	padding-left: 0;
+	margin: 0 auto;
+	}
+.area-group-part3-text{
+    margin: 0;	
+    font-family: "﻿Lato Light", sans-serif;
+	font-weight: 200;
+    font-size: 15px;
+    text-align: left;
+	}
+.area-group-article{
+  font-size: 15px;
+  font-family: "Lato Light", sans-serif;
+  color: rgb(104, 104, 104);
+  line-height: 1.733;
+  text-align: justify;
+ }
+.area-group-article-footer{
+  font-size: 15px;
+  font-family: "Lato Bold", sans-serif;
+  color: rgb(104, 104, 104);
+  line-height: 1.733;
+  }
+.bottom-list {
+	list-style: none;
+    font-size: 15px;
+    font-family: "Lato Light", sans-serif;
+    line-height: 1.9;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bottom-list li {width:50%;}
+.bottom-list .text-item:before {
+	font-family: "FontAwesome";
+    content: "\f105";
+    padding-right: 7px; 
+	 }
+.bottom-list .selected{color:#fff; filter: opacity(100%);}
+.sel-1 .selected:before{
+	font-family: "FontAwesome";
+    content: "\f105"; 
+	padding-right: 12px; 
+	color:#fff;
+	filter: opacity(100%);
+	}
+.part3 li {list-style-type: none;}
+	/*-------------------*/
+ 

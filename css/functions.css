@@ -1,0 +1,73 @@
+.functions{
+	padding: 100px 0 96px;
+	background-color: #fff;
+		}
+.functions-constrained {
+	display: flex; 
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	}
+.servers{
+	width: 325px;
+	margin-right: 95px;
+}
+.last{margin-right: 0;}
+.bg-holder{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+	transition: all 1s;
+	       }
+.servers:hover .bg-holder, .servers:hover .servers-headline {
+	transform: scale(1.1);
+}
+.fast-servers{ 
+	 	  background-color:#f1c40f;
+          border: 6px solid #f1c40f;
+}
+.cloud-servers{
+          background-color:#0faff1;
+          border: 6px solid #0faff1;
+		  
+}
+.domain-transfer{
+	      background-color: #95a5a6;
+          border: 6px solid #95a5a6;
+}
+.live-support{
+	      background-color:#f1540f;
+          border: 6px solid #f1540f;
+}
+.servers:hover .trans{
+	transform: rotate3d(0, 1, 0, 180deg); 
+	transition: transform 1s ;
+	}
+.servers-headline{
+	width: 100%;
+	padding-top:22px;
+	font-family: "﻿Lato Heavy", sans-serif;
+    font-size: 18px;
+	font-weight:  normal;
+	font-style: normal;
+    color: rgba(48, 48, 48, .9);
+    text-align: center;
+	line-height: 1.2;
+	transition:.6s;
+	 	}
+.servers-text{
+	max-height: 220px;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 13px;
+	font-family: "﻿Lato Light", sans-serif;
+    font-size: 16px;
+	font-weight:  normal;
+	font-style: normal;
+    color: rgba(126, 126, 126, 255);
+    text-align: center;
+	line-height: 1.375;
+}
